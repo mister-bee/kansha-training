@@ -6,14 +6,14 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Kansha Training</title>
+        <title>Kansha Training!!!</title>
         <meta name="description" content="kansha training" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          How to use <a href="https://kansha.app">Kansha</a>
+          How to use <a href="https://kansha.app">Kansha*!*!</a>
         </h1>
 
         <p className={styles.description}>

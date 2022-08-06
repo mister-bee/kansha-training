@@ -8,7 +8,7 @@ export default function Home() {
       <Head>
         <title>Kansha Training!!!</title>
         <meta name="description" content="kansha training" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href={`${process.env.NEXT_PUBLIC_FAVICON}/favicon.ico`} />
       </Head>
 
       <main className={styles.main}>

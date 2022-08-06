@@ -21,6 +21,16 @@ export default function Home() {
         </p>
 
         <h3>Students - Teacher - Administrators</h3>
+
+        <div>
+          <iframe
+            src="https://www.youtube.com/embed/E7wJTI-1dvQ"
+            frameBorder="0"
+            allow="autoplay; encrypted-media"
+            allowFullScreen
+            title="video"
+          />{" "}
+        </div>
       </main>
 
       <footer className={styles.footer}>

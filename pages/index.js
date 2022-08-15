@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import Navbar from './navbar'
 
 export default function Home() {
   return (
@@ -11,11 +12,12 @@ export default function Home() {
         <link rel="icon" href={`${process.env.NEXT_PUBLIC_FAVICON}/favicon.ico`} />
       </Head>
 
+
       <main className={styles.main}>
         <h1 className={styles.title}>
           How to use <a href="https://kansha.app">Kansha!!</a>
         </h1>
-
+        <Navbar />
         <p className={styles.description}>
           Gratitude is the Currrency of Learning{' '}
         </p>

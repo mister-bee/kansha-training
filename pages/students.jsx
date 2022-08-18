@@ -1,9 +1,8 @@
-import Navbar from './navbar'
+import Navbar from './Navbar'
 
 function Students() {
   return <>
     <h1>Students</h1>
-    <Navbar />
   </>
 }
 

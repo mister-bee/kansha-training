@@ -1,9 +1,8 @@
-import Navbar from './navbar'
+import Navbar from './Navbar'
 
 function Admins() {
   return <>
     <h1>Administrators</h1>
-    <Navbar />
   </>
 
 }

@@ -1,7 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
-import Navbar from './Navbar'
 
 export default function Home() {
   return (
@@ -16,7 +15,7 @@ export default function Home() {
         <h1 className={styles.title}>
           How to use <a href="https://kansha.app">Kansha!!</a>
         </h1>
-        <Navbar />
+
         <p className={styles.description}>
           Gratitude is the Currrency of Learning{' '}
         </p>
